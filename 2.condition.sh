@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#installing sql database 
+#installing git software  
 
 USERID=$(id -u)
 
