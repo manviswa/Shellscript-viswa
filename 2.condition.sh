@@ -11,7 +11,7 @@ then
 fi 
 # it is our responsibilty to check installation is success or not
 
-yum install sqlll -y 
+yum install sql -y 
 
 if [ $? -ne 0 ]
 then 
