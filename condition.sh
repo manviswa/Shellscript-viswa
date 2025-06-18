@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "if the number is greater than 10"
+echo "check if the number is greater than 10 or not"
 
 NUMBER=$1
 
