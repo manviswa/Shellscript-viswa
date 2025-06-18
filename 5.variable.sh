@@ -6,5 +6,5 @@ PERSONS=("viswa" "hema" "jathin") #inside array we always refer values with inde
 
 echo "First person: ${PERSONS[0]}"
 
-#echo "all persons: ${PERSONS[@]}"
+echo "all persons: ${PERSONS[@]}"
 
