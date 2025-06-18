@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #This is the addition script
-NUMBER1=$1
-NUMBER2=$2
+NUMBER1=201
+NUMBER2=299
 
 SUM=$((NUMBER1+NUMBER2))
 
