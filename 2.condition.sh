@@ -10,7 +10,7 @@ then
   exit 1
 fi 
 # it is our responsibilty to check installation is success or not
-
+yum update -y 
 yum install mysql -y 
 
 if [ $? -ne 0 ]
