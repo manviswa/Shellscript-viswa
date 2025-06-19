@@ -7,8 +7,8 @@ else
     echo "Nginx is not installed. Installing now..."
 
     # Update package list and install nginx
-    sudo apt update
-    sudo apt install -y nginx
+    sudo yum  update
+    sudo yum install -y nginx
 
     # Verify installation
     if command -v nginx >/dev/null 2>&1; then
