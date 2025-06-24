@@ -1,6 +1,6 @@
 #!/bin/bash
-
-#This is the addition script
+#Arguments script 
+#This is the addition script 
 NUMBER1=$1
 NUMBER2=$2
 
