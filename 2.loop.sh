@@ -11,7 +11,7 @@ R="\e[31m" #Red color
 G="\e[32m" #Green color
 N="\e[0m"  #Normal color
 Y="\e[33m" #Yellow color
-if [ $USERID -ne 0];
+if [ $USERID -ne 0]
 then 
   echo -e "$R ERROR: please run this script with root access $N"
   exit 1
