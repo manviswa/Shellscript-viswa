@@ -12,7 +12,7 @@ LOGFILE=$LOGDIR/$0-$DATE.log
 
 FILES_TO_DELETE=$(find /root/Shellscript-viswa/logs-dir -type f -mtime +15)
 
-ehco "script started exeuting at $DATE"
+echo "script started exeuting at $DATE"
 
 while read line
 
